@@ -1,2 +1,0 @@
-# boxed-cyberchef
-Containerized CyberChef 
