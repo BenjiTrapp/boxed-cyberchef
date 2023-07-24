@@ -5,7 +5,7 @@
 
 [CyberChef](https://github.com/gchq/CyberChef) is an awesome product, that saves a lot of time during the daily analysis work. This repository focusses on a dockerized version of CyberChef to have your data not shared with GCHQ, but still the full power of CyberChef. The image will be build on a daily schedule to have the latest version of CyberChef baked in. 
 
-A blog post, showing how to use CyberChef will soon follow on [benjitrapp.github.io](https://benjitrapp.github.io/)
+A blog post, showing a 360° perspective in how to use CyberChef can be found here: [benjitrapp.github.io](https://benjitrapp.github.io/cyberchef/)
 
 ## Prerequisites
 
