@@ -9,9 +9,9 @@ build:
 	docker build --build-arg -t $(APP_NAME):latest .
 
 github:
-		docker pull ghcr.io/benjitrapp/boxed-cyberchef:main
-		docker run -d --rm -p 8000:8000 --name boxed-cyberchef ghcr.io/benjitrapp/boxed-cyberchef:main
-		echo "Browse to 'http://localhost:8000'" 
+	docker pull ghcr.io/benjitrapp/boxed-cyberchef:main
+	docker run -d --rm -p 8000:8000 --name boxed-cyberchef ghcr.io/benjitrapp/boxed-cyberchef:main
+	echo "Browse to 'http://localhost:8000'" 
 
 clean:
 	docker rmi $(APP_NAME):latest
