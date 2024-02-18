@@ -1,4 +1,4 @@
-FROM docker.io/node:20 as build
+FROM docker.io/node:21 as build
 
 ENV CYBERCHEF_VERSION master
 
