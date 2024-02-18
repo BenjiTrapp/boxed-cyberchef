@@ -25,5 +25,4 @@ RUN sed -i \
     -e '/listen       8000;/a\' \
     -e '    listen       [::]:8000;' /etc/nginx/conf.d/default.conf
     
-
 EXPOSE 8000
